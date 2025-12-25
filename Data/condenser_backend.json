@@ -1,0 +1,350 @@
+{
+  "source_file": "Condenser Details_2.xlsx",
+  "sheets": {
+    "Data": "parsed"
+  },
+  "solvents": [
+    {
+      "Solvent": "Acetic acid",
+      "LatentHeat_kcal_per_kg": 96.03440038222647,
+      "BoilingPoint_C": 118.0,
+      "Cp_kcal_per_kgC": 0.49,
+      "Density_g_per_ml": 1.05
+    },
+    {
+      "Solvent": "Acetone",
+      "LatentHeat_kcal_per_kg": 123.74581939799332,
+      "BoilingPoint_C": 56.2,
+      "Cp_kcal_per_kgC": 0.51,
+      "Density_g_per_ml": 0.784
+    },
+    {
+      "Solvent": "Acetonitrille",
+      "LatentHeat_kcal_per_kg": 174.0,
+      "BoilingPoint_C": 81.6,
+      "Cp_kcal_per_kgC": 0.534,
+      "Density_g_per_ml": 0.787
+    },
+    {
+      "Solvent": "Aniline",
+      "LatentHeat_kcal_per_kg": 107.5011944577162,
+      "BoilingPoint_C": 184.3,
+      "Cp_kcal_per_kgC": 0.514,
+      "Density_g_per_ml": 1.02
+    },
+    {
+      "Solvent": "Benzene",
+      "LatentHeat_kcal_per_kg": 93.16770186335404,
+      "BoilingPoint_C": 80.1,
+      "Cp_kcal_per_kgC": 0.43,
+      "Density_g_per_ml": 0.876
+    },
+    {
+      "Solvent": "Butanol",
+      "LatentHeat_kcal_per_kg": 142.0,
+      "BoilingPoint_C": 117.7,
+      "Cp_kcal_per_kgC": 0.59,
+      "Density_g_per_ml": 0.81
+    },
+    {
+      "Solvent": "Chloroform",
+      "LatentHeat_kcal_per_kg": 59.006211180124225,
+      "BoilingPoint_C": 61.2,
+      "Cp_kcal_per_kgC": 0.251,
+      "Density_g_per_ml": 1.49
+    },
+    {
+      "Solvent": "Cyclohexane",
+      "LatentHeat_kcal_per_kg": 94.0,
+      "BoilingPoint_C": 80.74,
+      "Cp_kcal_per_kgC": 0.525,
+      "Density_g_per_ml": 0.774
+    },
+    {
+      "Solvent": "DMF",
+      "LatentHeat_kcal_per_kg": 138.0,
+      "BoilingPoint_C": 153.0,
+      "Cp_kcal_per_kgC": 0.49,
+      "Density_g_per_ml": 0.949
+    },
+    {
+      "Solvent": "EDC",
+      "LatentHeat_kcal_per_kg": 76.4,
+      "BoilingPoint_C": 83.0,
+      "Cp_kcal_per_kgC": 0.31,
+      "Density_g_per_ml": 1.25
+    },
+    {
+      "Solvent": "Ethyl Acetate",
+      "LatentHeat_kcal_per_kg": 82.0,
+      "BoilingPoint_C": 77.1,
+      "Cp_kcal_per_kgC": 0.46,
+      "Density_g_per_ml": 0.902
+    },
+    {
+      "Solvent": "Ethyl alcohol",
+      "LatentHeat_kcal_per_kg": 202.10224558050646,
+      "BoilingPoint_C": 78.5,
+      "Cp_kcal_per_kgC": 0.65,
+      "Density_g_per_ml": 0.789
+    },
+    {
+      "Solvent": "Heptane",
+      "LatentHeat_kcal_per_kg": 75.96751075011944,
+      "BoilingPoint_C": 98.0,
+      "Cp_kcal_per_kgC": 0.535,
+      "Density_g_per_ml": 0.684
+    },
+    {
+      "Solvent": "Hexane",
+      "LatentHeat_kcal_per_kg": 87.1954132823698,
+      "BoilingPoint_C": 69.0,
+      "Cp_kcal_per_kgC": 0.54,
+      "Density_g_per_ml": 0.655
+    },
+    {
+      "Solvent": "IPA",
+      "LatentHeat_kcal_per_kg": 175.17916865742953,
+      "BoilingPoint_C": 82.6,
+      "Cp_kcal_per_kgC": 0.64,
+      "Density_g_per_ml": 0.786
+    },
+    {
+      "Solvent": "LN2",
+      "LatentHeat_kcal_per_kg": 47.539417104634495,
+      "BoilingPoint_C": -195.0,
+      "Cp_kcal_per_kgC": 1.08,
+      "Density_g_per_ml": 0.8064
+    },
+    {
+      "Solvent": "MDC",
+      "LatentHeat_kcal_per_kg": 79.0,
+      "BoilingPoint_C": 39.6,
+      "Cp_kcal_per_kgC": 0.28,
+      "Density_g_per_ml": 1.32
+    },
+    {
+      "Solvent": "Methanol",
+      "LatentHeat_kcal_per_kg": 262.78069756330626,
+      "BoilingPoint_C": 64.6,
+      "Cp_kcal_per_kgC": 0.6,
+      "Density_g_per_ml": 0.792
+    },
+    {
+      "Solvent": "MMA",
+      "LatentHeat_kcal_per_kg": 135.0,
+      "BoilingPoint_C": 44.0,
+      "Cp_kcal_per_kgC": 1.1,
+      "Density_g_per_ml": 0.902
+    },
+    {
+      "Solvent": "Propyl alcohol",
+      "LatentHeat_kcal_per_kg": 186.09651218346872,
+      "BoilingPoint_C": 97.0,
+      "Cp_kcal_per_kgC": 0.57,
+      "Density_g_per_ml": 0.803
+    },
+    {
+      "Solvent": "TBA",
+      "LatentHeat_kcal_per_kg": 92.8,
+      "BoilingPoint_C": 43.0,
+      "Cp_kcal_per_kgC": 0.62,
+      "Density_g_per_ml": 0.696
+    },
+    {
+      "Solvent": "TBAI",
+      "LatentHeat_kcal_per_kg": NaN,
+      "BoilingPoint_C": NaN,
+      "Cp_kcal_per_kgC": NaN,
+      "Density_g_per_ml": 1.2
+    },
+    {
+      "Solvent": "THF",
+      "LatentHeat_kcal_per_kg": 98.0,
+      "BoilingPoint_C": 66.0,
+      "Cp_kcal_per_kgC": 1.1,
+      "Density_g_per_ml": 0.889
+    },
+    {
+      "Solvent": "Toluene",
+      "LatentHeat_kcal_per_kg": 83.85093167701864,
+      "BoilingPoint_C": 110.6,
+      "Cp_kcal_per_kgC": 0.41,
+      "Density_g_per_ml": 0.867
+    },
+    {
+      "Solvent": "Water",
+      "LatentHeat_kcal_per_kg": 539.1782130912566,
+      "BoilingPoint_C": 100.0,
+      "Cp_kcal_per_kgC": 1.0,
+      "Density_g_per_ml": 1.0
+    }
+  ],
+  "hta_table": [
+    {
+      "Equipment": "Reactor",
+      "Capacity": "500",
+      "HTA_m2": 1.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "750",
+      "HTA_m2": 2.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "1000",
+      "HTA_m2": 3.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "1100",
+      "HTA_m2": 3.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "1500",
+      "HTA_m2": 5.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "1600",
+      "HTA_m2": 5.2
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "1800",
+      "HTA_m2": 6.8
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "2000",
+      "HTA_m2": 7.1
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "2500",
+      "HTA_m2": 8.3
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "3000",
+      "HTA_m2": 9.3
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "3500",
+      "HTA_m2": 10.2
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "4000",
+      "HTA_m2": 11.3
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "5000",
+      "HTA_m2": 13.1
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "6000",
+      "HTA_m2": 14.8
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "6300",
+      "HTA_m2": 14.8
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "6500",
+      "HTA_m2": 15.6
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "7000",
+      "HTA_m2": 16.2
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "7500",
+      "HTA_m2": 17.2
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "8000",
+      "HTA_m2": 18.0
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "10000",
+      "HTA_m2": 20.9
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "12000",
+      "HTA_m2": 23.5
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "12500",
+      "HTA_m2": 24.5
+    },
+    {
+      "Equipment": "Reactor",
+      "Capacity": "15000",
+      "HTA_m2": 30.0
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "1000",
+      "HTA_m2": 5.0
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "1500",
+      "HTA_m2": 7.5
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "2000",
+      "HTA_m2": 7.5
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "3000",
+      "HTA_m2": 9.5
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "4000",
+      "HTA_m2": 12.1
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "5000",
+      "HTA_m2": 13.9
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "6000",
+      "HTA_m2": 15.3
+    },
+    {
+      "Equipment": "RCVD",
+      "Capacity": "7000",
+      "HTA_m2": 17.0
+    },
+    {
+      "Equipment": "ATD/ VTD",
+      "Capacity": "48 Trays",
+      "HTA_m2": 15.36
+    },
+    {
+      "Equipment": "ATD/ VTD",
+      "Capacity": "96 Trays",
+      "HTA_m2": 30.72
+    }
+  ]
+}
