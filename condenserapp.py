@@ -94,7 +94,7 @@ Pipe_Dia_List = [1, 1.5, 2, 2.5, 3]
 # Utility master data (you can later make these editable if needed)
 df_utility = pd.DataFrame({
     "Utility": ["Cooling Water", "Chilling Water", "Brine Water"],
-    "Inlet_Temp (degree C)": [25, 15, 0],
+    "Inlet_Temp (degree C)": [30, 15, 0],
     "Density (kg/ cubic m)": [1000, 1000, 1000],
 })
 max_utility_inlet = float(df_utility["Inlet_Temp (degree C)"].max())
