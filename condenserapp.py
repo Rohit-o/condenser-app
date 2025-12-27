@@ -9,7 +9,6 @@ Original file is located at
 
 import json
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -18,8 +17,6 @@ import streamlit as st
 # ------------------------------
 # Load backend JSON (relative path)
 # ------------------------------
-import json
-from pathlib import Path
 
 APP_DIR = Path(__file__).parent
 DATA_PATH = APP_DIR / "data" / "condenser_backend.json"
@@ -53,7 +50,32 @@ def load_backend(path_str: str):
 
 backend = load_backend(str(DATA_PATH))
 
+# ---- Extract solvent list from JSON (robust) ----
+# Common possibilities: {"solvents":[...]} or {"Solvents":[...]} or {"data":[...]}
+if isinstance(backend, dict):
+    solvent_rows = (
+        backend.get("solvents")
+        or backend.get("Solvents")
+        or backend.get("SOLVENTS")
+        or backend.get("data")
+        or backend.get("Data")
+    )
+else:
+    solvent_rows = None
 
+# If the JSON itself is just a list, treat it as solvent rows
+if solvent_rows is None and isinstance(backend, list):
+    solvent_rows = backend
+
+if not isinstance(solvent_rows, list) or len(solvent_rows) == 0:
+    st.error(
+        "❌ Could not find solvent list inside condenser_backend.json.\n\n"
+        "Expected JSON structure like:\n"
+        '- {"solvents": [ { "Solvent": "Acetone", ... }, ... ]}\n'
+        "OR a direct list: [ { ... }, { ... } ]\n"
+    )
+    st.write("Top-level JSON keys (if dict):", list(backend.keys()) if isinstance(backend, dict) else type(backend))
+    st.stop()
 
 # ------------------------------
 # Solvent lookup helpers
