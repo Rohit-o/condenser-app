@@ -18,15 +18,41 @@ import streamlit as st
 # ------------------------------
 # Load backend JSON (relative path)
 # ------------------------------
-DATA_PATH = Path(__file__).parent / "data" / "condenser_backend.json"
+import json
+from pathlib import Path
+
+APP_DIR = Path(__file__).parent
+DATA_PATH = APP_DIR / "data" / "condenser_backend.json"
 
 @st.cache_data
-def load_backend():
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
+def load_backend(path_str: str):
+    path = Path(path_str)
+
+    if not path.exists():
+        # show what's actually inside the app folder
+        available = []
+        try:
+            available = [str(p) for p in APP_DIR.rglob("*") if p.is_file()]
+        except Exception:
+            pass
+
+        st.error(
+            "❌ condenser_backend.json not found.\n\n"
+            f"Expected path:\n- {path}\n\n"
+            "Fix:\n"
+            "1) In your GitHub repo, create folder `data/`\n"
+            "2) Upload `condenser_backend.json` inside it\n"
+            "3) Commit & push\n\n"
+            "Files currently found in this deployed app:\n"
+            + "\n".join(f"- {x}" for x in available[:200])
+        )
+        st.stop()
+
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-backend = load_backend()
-solvent_rows = backend.get("solvents", [])
+backend = load_backend(str(DATA_PATH))
+
 
 
 # ------------------------------
